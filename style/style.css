@@ -5,3 +5,46 @@ body{
     font-weight: 300;
     font-style: normal;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* banner-container */
+.banner-container {
+    width: 1280;
+    margin: 0px 50px;
+    min-height: 800px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(/images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+.banner-container p,h1{
+    color: white;
+}
+
+/* 65%-section-container */
+
+.second-section-container{
+    
+
+}
